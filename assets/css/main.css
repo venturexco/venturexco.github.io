@@ -2357,46 +2357,6 @@ input, select, textarea {
 			width: 50%;
 		}
 
-			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
-			}
-
-			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
-			}
-
-			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
-			}
-
-			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
-			}
-
-			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
-			}
-
-			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
-			}
-
-			.features li:nth-child(7) {
-				background-color: rgba(0, 0, 0, 0.245);
-			}
-
-			.features li:nth-child(8) {
-				background-color: rgba(0, 0, 0, 0.28);
-			}
-
-			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
-			}
-
-			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
-			}
-
 			.features li:before {
 				display: block;
 				color: #00ffcc;
@@ -2612,7 +2572,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #21b2a699;
 			color: #c8ece9;
 		}
 
@@ -3240,7 +3200,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: rgba(46, 56, 66, .8);
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3706,7 +3666,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 1em 2em 1em 2em ;
 			}
 
 		}
@@ -3714,7 +3674,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 1em 2em 1em 2em ;
 			}
 
 		}
@@ -3722,10 +3682,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3743,10 +3703,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3763,6 +3723,24 @@ input, select, textarea {
 		-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.5);
 		-moz-box-shadow: 0 5px 10px rgba(0,0,0,.5);
 		box-shadow: 0 10px 50px rgba(0,0,0,1);
+	}
+
+	.wrapper.style2 {
+		background-color: rgba(29, 71, 113, 0.8);
+	}
+
+	.wrapper.style3 {
+		background-color: #fefefe;
+		color: #4a4a4a;
+	}
+
+	.wrapper.style3 h2, .wrapper.style3 h3 {
+		color: #4a4a4a;
+		border-bottom: solid 2px #4a4a4a;
+	}
+
+	.wrapper.style3 header.major p {
+		color: #333;
 	}
 
 	header nav {
@@ -3783,15 +3761,22 @@ input, select, textarea {
 		border-bottom: none;
 	}
 
-	@media screen and (max-width: 480px) {
-		header nav {
+	#two spotlight {
+		background-color: #dfdfdf;
+	}
+
+	@media screen and (max-width: 600px) {
+		#header nav {
 			display: none;
+		}
+		#header h1 {
+			position: initial;
+			text-align: center;
 		}
 	}
 
 	@media screen and (max-width: 980px) {
-		header nav li {
-			float: none;
-			text-align: center;
+		header h1 {
+			
 		}
 	}
